@@ -1,6 +1,8 @@
 This project will demonstrate what i know so far Javascript,
 git, github and commandline(WSL2).
 
-This will be a simple project. I am going to collect many strings of
-data that's a interesting fact, randomize output using js 
-math.random.
+This will be a simple project. I am going to collect many strings 
+of interesting fact and store them in an array.
+
+Each time the program is ran it will spit out an interesting fact 
+from the array.

@@ -2,6 +2,4 @@ const funFacts = ['The platypus (Ornithorhynchus anatinus) also known as the duc
 
 RandomIndex = Math.floor(Math.random()*funFacts.length);
 
-
-console.log(funFacts[0]);
-console.log(RandomIndex);
+console.log(`${funFacts[RandomIndex]}`);
