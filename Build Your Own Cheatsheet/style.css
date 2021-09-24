@@ -1,0 +1,26 @@
+table {
+    border: 2px solid;
+    border-color: black;
+    margin: 0 auto;
+    width: 650px;
+
+}
+
+td {
+    border: 1px solid;
+    border-color: black;
+}
+
+body {
+    background-color: azure;
+    text-align: center;
+}
+
+.code {
+    font-family: monospace;
+    background-color: beige;
+}
+
+h2 {
+    font-size: 15px;
+}
