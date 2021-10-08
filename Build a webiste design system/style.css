@@ -1,0 +1,161 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeae9;
+}
+
+.container {
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width:1280px;
+    margin: 0 auto 20px;
+}
+
+.container * {
+    background-color: white;
+}
+
+.sub-container {
+    margin: 50px;
+    
+}
+
+.colors{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 180px;
+}
+
+.box {
+    height:100%;
+    flex:1;
+    border: 1px solid lightgrey;
+}
+
+.color-child {
+    height: 50%;
+}
+
+.color1 {
+    background-color: #bce9ff;
+}
+
+.color2 {
+    background-color: #bcc8ff;
+}
+
+.color3 {
+    background-color: #d2bcff;
+}
+
+.color4 {
+    background-color: #f3bcff;
+}
+
+.color5 {
+    background-color: #ffbce9;
+}
+
+.color6 {
+    background-color: #ffbcc8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.6;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+h3 {
+    margin-left: 30px;
+}
+
+.color-data {
+    padding: 0.75em 1em 0.375em;
+}
+
+.main-font{
+    margin: 30px 10px 0;
+    background-color: #eeeae9;
+}
+
+.main-font *{
+    background-color: #eeeae9;
+}
+
+.arial {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 40px;
+    display: flex;;
+    width: max-content;
+    flex: 1;
+    padding-top: 40px;
+    padding-left: 300px;
+    padding-bottom: 0;
+    font-weight: 700;
+}
+
+.A {
+    font-size: 100px;
+    width: max-content;
+    margin: 0;
+    display: flex;
+    padding-top: 50px;
+    flex: 1;
+    padding-left: 200px;
+}
+
+.A, .arial, .arial-regular {
+    color: #4a4a4a;
+
+}
+
+.font-container {
+    padding: 40px;
+    display: block;
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.font-weight {
+    font-size: 14px;
+    font-weight: bold;
+    width: 100px;
+    display: inline-block;
+}
+
+.ex-paragraph {
+    margin: 40px;
+    text-align: justify;
+}
+
+.arial-700 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.arial-400 {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.arial-300 {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.arial-regular {
+    padding-left: 300px;
+    font-size: 20px;
+    font-weight: 400;
+}
